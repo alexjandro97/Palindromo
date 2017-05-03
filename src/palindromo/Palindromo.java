@@ -38,11 +38,6 @@ public class Palindromo {
                 prueba2 += palindromo.charAt(j);
             }
         }
-       
-        prueba1.replace(" ","");
-        prueba2.replace(" ","");
-        System.out.println(prueba1);
-        System.out.println(prueba2);
         
         //comprobamos si son iguales
         if(prueba1.equals(prueba2)){
